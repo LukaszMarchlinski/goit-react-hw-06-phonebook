@@ -11,7 +11,6 @@ const Contact = ({ id, name, number }) => {
   const dispatch = useDispatch();
 
   const handleEdit = e => {
-    const { id } = e.target;
     setIsEditModalOpen(true);
   };
 
